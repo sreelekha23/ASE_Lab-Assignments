@@ -1,0 +1,78 @@
+#map-canvas {
+    width: 100%;
+    height: 610px;
+    margin-top:10px;
+}
+.form-control{
+    border-radius:8px;
+}
+.weatherDetails{
+    font-family: Microsoft sans-serif;
+    font-size:14px;
+}
+.navbar{
+    background: transparent;
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+.navbar-brand{
+    color:darkgreen;
+    padding-left:37%;
+    font-family: Microsoft sans-serif;
+    font-size:50px;
+}
+.form-group{
+    margin-bottom:-12px;
+}
+#logout{
+    color: darkgreen;
+    padding-left: 30%;
+    font-family: Micro;
+    padding-top: 1.5%;
+    font-family: Microsoft sans-serif;
+    font-size:40px;
+}
+.glyphicon-off{
+    font-size:13px;
+}
+#barCodeLogo{
+    height:100px;
+    width:100px;
+    float:left;
+    margin-left:30px;
+    margin-top:20px;
+}
+.row{
+    width:60%;
+}
+.table{
+    margin-top:20px;
+    width:60%;
+    border:1px solid darkgreen;
+    border-radius:8px;
+    margin-left:5%;
+}
+#imageLabel{
+    margin-right: 100px;
+    padding-left:300px;
+    font-weight:bold;
+    font-size:21px;
+}
+body{
+    background: url('https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcSLT3GJurrFcgdu3nVCKOtB1WsuZx0Yu8a9fLnfAP43o3QQ8j5Q');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#barCodeImage{
+    float: right;
+    margin-right: 100px;
+    height:500px;
+    width:500px;
+    mrgin-top:40px;
+    border:1px solid black;
+    border-radius:10px;
+}
+#barCodeTableLabel{
+    font-weight:bold;
+    font-size:21px;
+}
