@@ -1,0 +1,33 @@
+<ion-view title="Signup" id="page5" style="background-color:#000000;">
+    <div class="background-image"></div>
+    <ion-content padding="true" class="has-header" ng-app='app'>
+        <form id="signup-form8" class="list">
+            <ion-list id="signup-list2">
+                <label class="item item-input" id="signup-input13">
+                    <span class="input-label">Name</span>
+                    <input type="text" placeholder="your name">
+                </label>
+                <label class="item item-input" id="signup-input14">
+                    <span class="input-label">Username</span>
+                    <input type="text" placeholder="user name">
+                </label>
+                <div ng-controller='PasswordController'>
+                <label class="item item-input" id="signup-input15">
+                    <span class="input-label">Password</span>
+                    <input type="password"  placeholder="password" ng-model='password' >
+                    {{strength}} {{grade(password)}} 
+                </label>
+                </div>    
+                <label class="item item-input" id="signup-input17">
+                    <span class="input-label">CNF Password</span>
+                    <input type="password" placeholder="conform password">
+                </label>
+                <label class="item item-input" id="signup-input16">
+                    <span class="input-label">Email</span>
+                    <input type="email" placeholder="enter email id">
+                </label>
+            </ion-list>
+            <a  ui-sref="login" id="signup-button7" style="color:#FFFFFF;" class="button button-dark  button-block">Sign up</a>
+        </form>
+    </ion-content>
+</ion-view>

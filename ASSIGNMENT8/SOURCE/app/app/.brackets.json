@@ -1,0 +1,22 @@
+{
+    "jscodehints.detectedExclusions": [
+        "E:/ionic/Lab5/platforms/android/platform_www/cordova-js-src/android/promptbasednativeapi.js",
+        "E:/ionic/Lab7/platforms/android/cordova/lib/log.js",
+        "E:/ionic/Lab7/platforms/android/cordova/lib/builders/GradleBuilder.js",
+        "E:/ionic/Lab7/platforms/android/cordova/lib/check_reqs.js",
+        "E:/ionic/Lab7/platforms/android/cordova/lib/device.js",
+        "E:/ionic/Lab7/platforms/android/cordova/lib/emulator.js",
+        "E:/ionic/Lab7/platforms/android/cordova/lib/pluginHandlers.js",
+        "E:/ionic/Lab7/platforms/android/cordova/lib/prepare.js",
+        "E:/ionic/Lab7/platforms/android/cordova/lib/retry.js",
+        "E:/ionic/Lab7/platforms/android/cordova/lib/run.js",
+        "E:/ionic/Lab7/platforms/android/build/intermediates/assets/debug/www/js/app.js",
+        "E:/ionic/Lab7/platforms/android/cordova/lib/android_sdk_version.js",
+        "E:/ionic/Lab7/platforms/android/assets/www/plugins/ionic-plugin-keyboard/www/android/keyboard.js",
+        "E:/ionic/Lab7/platforms/android/cordova/Api.js",
+        "E:/ionic/Lab7/www/js/controllers.js",
+        "E:/ionic/Lab7/platforms/android/platform_www/cordova-js-src/plugin/android/app.js",
+        "E:/ionic/Lab7/www/js/app.js",
+        "E:/ionic/Lab7/platforms/android/cordova/lib/build.js"
+    ]
+}
