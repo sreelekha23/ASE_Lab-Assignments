@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>LOGIN</title>
+    <script>
+        function Reg()
+        {
+            window.location.href='Registration.html';
+        }
+        function Log()
+        {
+            if(document.getElementById('username').value.length>0 && document.getElementById('pwd').value.length>0)
+            {    window.location.href='homepg.html'; }
+            /*if(document.getElementById('username').value==localStorage.getItem('username')
+             && document.getElementById('pwd').value==localStorage.getItem('pwd'))
+             {
+             window.location.href='homepg.html';
+             }
+             else
+             {
+             alert('Enter correct information');
+             }*/
+        }
+        else {
+            alert('Missing information !');
+        }
+        }
+    </script>
+    <style>
+        body {
+            background-image: url(student.jpg);
+            -webkit-background-size: cover;
+            -moz-background-size: cover;
+            -o-background-size: cover;
+            background-size: cover;
+            border: 2px solid black;
+            box-sizing: content-box;
+            box-shadow:10px 10px 5px #888888;
+            border-radius:30px;
+            width:500px;
+            height:300px;
+            position:relative;
+            left:450px;
+            top:100px;
+        }
+        .panel-default {
+            opacity: 0.9;
+            margin-top:30px;
+        }
+        .form-group.last { margin-bottom:0px; }
+        }
+    </style>
+
+</head>
+
+<body>
+<h1 align="center" style="padding-top: 10px">LOGIN</h1>
+<div class="panel panel-default">
+    <div align="center" style="padding-top: 20px">
+
+
+        <input type="text" id="username" placeholder="UserName" align="vertical"/><br/>
+        <br/>
+        <input type="password" id="pwd" placeholder="Password"/><br/>
+        <br/>
+        <br/>
+        <input type="button" id="login" value="LOGIN" align="center" onclick="Log()">
+
+    </div>
+
+</div>
+
+<br/><br/>
+<br/>
+<br/><br/>
+<br/>
+<br/><br/>
+<br/>
+<br/><br/>
+<br/>
+<br/><br/>
+<br/>
+<br/>
+
+</div>
+</body>
+</html>
